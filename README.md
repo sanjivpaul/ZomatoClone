@@ -19,7 +19,7 @@ Basic HTML syntax 👩‍💻.
 ## 2. Filters and food items🍔🍕 section(Using Bootstrap)🚀.
 
 ### --Row and columns.
-```
+```html
 // Here we have used the row and column method of bootstrap.
 //header-section
 
