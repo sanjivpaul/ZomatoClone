@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato Home Page | Sanjiv Paul</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container-fluid">
+      <header class="row">
+        <div class="col-12 bg-danger">
+          <div
+            class="container d-flex justify-content-between align-items-center py-2"
+          >
+            <p class="brand-name text-danger m-0 h3">e!</p>
+            <div>
+              <button class="btn text-white">Login</button>
+              <button class="btn btn-outline-light">Create an Account</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="row">
+        <div class="col-12">
+          <div class="container">
+            <p class="text-primary h2 m-0 py-4">Breakfast Places in Mumbai</p>
+            <div class="row">
+              <div class="col-3 shadow p-3">
+                <div class="container">
+                  <!-- Filter -->
+                  <p class="fw-bold h5 text-muted">Filters</p>
+                  <label class="my-1"for="">Select location</label>
+                  <select name="select-location" id="" class="form-select">
+                    <option class="state-names" value="">
+                      Select location
+                    </option>
+                    <option class="state-names" value="">Jamshedpur</option>
+                    <option class="state-names" value="">Mumbai</option>
+                    <option class="state-names" value="">Kolkata</option>
+                    <option class="state-names" value="">Delhi</option>
+                    <option class="state-names" value="">Shimla</option>
+                    <option class="state-names" value="">
+                      Himachal Prades
+                    </option>
+                    <option class="state-names" value="">Hyderabad</option>
+                    <option class="state-names" value="">Chennai</option>
+                    <option class="state-names" value="">Pune</option>
+                    <option class="state-names" value="">Mangaluru</option>
+                    <option class="state-names" value="">Mysore</option>
+                  </select>
+
+                  <!-- Cusine -->
+                  <p class="my-2 mt-4 fw-bold">Cusine</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="" class="form-check-label">North Indian</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" checked/>
+                    <label for="" class="form-check-label">South Indian</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" checked/>
+                    <label for="" class="form-check-label">Chiness</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="" class="form-check-label">Fast Food</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="" class="form-check-label">Street Food</label>
+                  </div>
+
+                  <!-- cost for two -->
+                  <p class="my-2 mt-4 fw-bold">Cost For Two</p>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">Less than 500</label>
+                  </div>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">500 to 1000</label>
+                  </div>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">1000 to 1500</label>
+                  </div>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">1500 to 2000</label>
+                  </div>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">2000+</label>
+                  </div>
+
+                  <!-- sort -->
+                  <p class="my-2 mt-4 fw-bold">Sort</p>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">Price low to high</label>
+                  </div>
+                  <div>
+                    <input type="radio" class="form-check-input" />
+                    <label for="" class="form-check-label">Price high to low</label>
+                  </div>
+
+                </div>
+              </div>
+              <!-- search -->
+              <div class="col-7 ms-5 ">
+                <div class="row">
+                  <!-- first item -->
+                  <div class="shadow col-12 py-3 px-4 mb-3">
+                    <div class="d-flex p-3 align-items-center">
+                      <img src="/img/breakfast.png" alt="breakfast" class="search-items-image">
+                      <div class="ms-3">
+                        <p class="m-0 h4">The Big Chill Cakery</p>
+                        <p class="m-0 fw-bold">FORT</p>
+                        <p class="m-0 text-muted"><i class="fa fa-map-marker me-1" aria-hidden="true"></i>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-3">
+                        <p class="m-0 text-muted ">CUISINES:</p>
+                        <p class="m-0 text-muted ">COST FOR TWO:</p>
+                      </div>
+                      <div class="col-3">
+                        <p class="m-0 text-muted fw-bold ">Bakery</p>
+                        <p class="m-0 text-muted fw-bold "><i class="fa fa-inr" aria-hidden="true"></i>700</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- second item -->
+                  <div class="shadow col-12  py-4 px-4 mb-3">
+                    <div class="d-flex p-3 align-items-center">
+                      <img src="/img/breakfast.png" alt="breakfast" class="search-items-image">
+                      <div class="ms-3">
+                        <p class="m-0 h4">The Big Chill Cakery</p>
+                        <p class="m-0 fw-bold">FORT</p>
+                        <p class="m-0 text-muted"><i class="fa fa-map-marker me-1" aria-hidden="true"></i>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-3">
+                        <p class="m-0 text-muted ">CUISINES:</p>
+                        <p class="m-0 text-muted ">COST FOR TWO:</p>
+                      </div>
+                      <div class="col-3">
+                        <p class="m-0 text-muted fw-bold ">Bakery</p>
+                        <p class="m-0 text-muted fw-bold "><i class="fa fa-inr" aria-hidden="true"></i>700</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="row my-3">
+                  <div class="col-12">
+                    <nav>
+                      <ul class="pagination d-flex justify-content-center">
+                        <li class="shadow-sm page-item"><a href=""><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+                        <li class="shadow-sm page-item fw-bold">1</li>
+                        <li class="shadow-sm page-item fw-bold">2</li>
+                        <li class="shadow-sm page-item fw-bold">3</li>
+                        <li class="shadow-sm page-item fw-bold">4</li>
+                        <li class="shadow-sm page-item fw-bold">5</li>
+                        <li class="shadow-sm page-item fw-bold"><a href=""><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

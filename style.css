@@ -1,0 +1,46 @@
+.brand-name{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-check-input:checked{
+    background-color: magenta;
+    border-color: magenta;
+}
+
+.search-items-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+}
+
+
+
+.page-item{
+    /* border: 1px solid #8C96AB; */
+    color: #8C96AB;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+.page-item a{
+    text-decoration: none;
+    color: #8C96AB;
+}
+
+.page-item a:hover{
+    color: white;
+}
+
+.page-item:hover{
+    background-color: #8C96AB;
+    color: white;
+}
